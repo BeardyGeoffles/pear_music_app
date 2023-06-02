@@ -14,6 +14,9 @@ public class pear {
         song song2 = new song(
                 2, "Bat Out Of Hell", "Meat Loaf", 900, LocalDateTime.of(1977,6,12,0,0)
         );
+        song song3 = new song(
+                3, "I'd Do Anything For Love (But I Won't Do That)", "Meat Loaf", 1200, LocalDateTime.of(1993,6,12,0,0)
+        );
 
 
     }
