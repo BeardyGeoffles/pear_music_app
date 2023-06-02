@@ -12,7 +12,7 @@ public class pear {
               1, "Frog Prince", "Keane", 300, LocalDateTime.of(2006,6,12,0,0)
       );
         song song2 = new song(
-                2, "Bat Out Of Hell", "Meat Load", 900, LocalDateTime.of(1977,6,12,0,0)
+                2, "Bat Out Of Hell", "Meat Loaf", 900, LocalDateTime.of(1977,6,12,0,0)
         );
 
 
