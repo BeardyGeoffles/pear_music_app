@@ -1,15 +1,14 @@
 package pear.music.data;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class song {
-
 private int id;
 private String title;
 private String artist;
 private int runtime;
-private LocalDateTime releaseDate;
+private LocalDate releaseDate;
 
 
     public int getId() {
@@ -44,15 +43,15 @@ private LocalDateTime releaseDate;
         this.runtime = runtime;
     }
 
-    public LocalDateTime getReleaseDate() {
+    public LocalDate getReleaseDate() {
         return releaseDate;
     }
 
-    public void setReleaseDate(LocalDateTime releaseDate) {
+    public void setReleaseDate(LocalDate releaseDate) {
         this.releaseDate = releaseDate;
     }
 
-    public song(String title, String artist, int runtime, LocalDateTime releaseDate) {
+    public song(String title, String artist, int runtime, LocalDate releaseDate) {
         this.title = title;
         this.artist = artist;
         this.runtime = runtime;
@@ -61,7 +60,7 @@ private LocalDateTime releaseDate;
 
     }
 
-    public song(int id, String title, String artist, int runtime, LocalDateTime releaseDate) {
+    public song(int id, String title, String artist, int runtime, LocalDate releaseDate) {
         this.id = id;
         this.title = title;
         this.artist = artist;
@@ -70,8 +69,6 @@ private LocalDateTime releaseDate;
     }
     public song() {
         this.id = id;
-
-
     }
 
     @Override
